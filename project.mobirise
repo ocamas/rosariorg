@@ -864,6 +864,9 @@
               ".mbr-section-title": {
                 "text-align": "left"
               }
+            },
+            ".main-title": {
+              "color": "#464b4e"
             }
           },
           "_name": "testimonials01",
