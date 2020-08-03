@@ -937,7 +937,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .cid-rVtZLIAGc8 button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1093,6 +1093,7 @@ a {
 }
 .cid-s6rTztQakD .card-text {
   color: #999999;
+  text-align: left;
 }
 .cid-s6rTztQakD .mbr-text {
   color: #000000;
@@ -1794,7 +1795,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .cid-s6smlGNysk button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1926,6 +1927,62 @@ a {
 }
 .cid-s6smlJu85m H1 {
   text-align: left;
+}
+.cid-s6CyYqqD2n {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #ffffff;
+}
+.cid-s6CyYqqD2n .mail-col {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.cid-s6CyYqqD2n .mail {
+  position: relative;
+  cursor: pointer;
+  letter-spacing: 1px;
+  width: fit-content;
+  color: #000000;
+}
+.cid-s6CyYqqD2n .mail:after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: currentColor;
+  bottom: -6px;
+  opacity: 0.1;
+  left: 0;
+}
+.cid-s6CyYqqD2n .mail:before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 0;
+  transition: all 0.4s ease-in-out;
+  background: currentColor;
+  bottom: -6px;
+  left: auto;
+  right: 0;
+}
+.cid-s6CyYqqD2n .mail:hover:before {
+  width: 100%;
+  right: auto;
+  left: 0;
+}
+.cid-s6CyYqqD2n H4 {
+  color: #999999;
+}
+.cid-s6CyYqqD2n .mbr-text,
+.cid-s6CyYqqD2n .mbr-section-btn {
+  color: #999999;
+}
+@media (max-width: 767px) {
+  .cid-s6CyYqqD2n .mail-col {
+    justify-content: center;
+    padding-top: 1rem;
+  }
 }
 .cid-s6symxbSjT {
   padding-top: 75px;
@@ -2540,7 +2597,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .cid-s6snmE1Gmx button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -3291,7 +3348,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .cid-s6snxJrNfM button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -4042,7 +4099,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .cid-s6snFlEquw button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
